@@ -6,8 +6,7 @@ public class MargheritaDo extends Pizza{
 
     public MargheritaDo()
     {
-        setName("Pizza MargheritaDo");
-        addIngredient(new Ingredient("pâte",3));
+        super("Pizza Margherita");
         addIngredient(new Ingredient("sauce tomate",(float)1.5));
         addIngredient(new Ingredient("fromage",2));
     }

@@ -4,4 +4,9 @@ import Main.*;
 
 public class CarbonaraDo extends Pizza{
 
+    public CarbonaraDo()
+    {
+        super("Carbonara");
+
+    }
 }

@@ -15,7 +15,6 @@ public abstract class Pizza implements Food {
     public Pizza(String name)
     {
         this.name = name;
-
         ingredients = new ArrayList<>();
     }
 
