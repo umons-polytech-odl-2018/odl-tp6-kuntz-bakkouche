@@ -1,6 +1,6 @@
 package Main.Pizzas;
 
-import Main.Pizza;
+import Main.*;
 
 public class ProsciuttoDo extends Pizza{
 }

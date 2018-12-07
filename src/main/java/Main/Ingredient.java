@@ -33,5 +33,4 @@ public class Ingredient implements Food {
     public String toString(){
         return "FOOD{" + "name ='" + name +'\'' +",price = " +price +'}';
     }
-
 }
