@@ -1,4 +1,4 @@
-package Factory;
+package Main.Factory;
 
 public class PizzaFactory {
 
