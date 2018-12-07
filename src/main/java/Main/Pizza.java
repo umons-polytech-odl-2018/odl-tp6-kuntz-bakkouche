@@ -27,7 +27,7 @@ public abstract class Pizza implements Food {
     public float getPrice()
     {
         float price = 0;
-        for(Ingredient i : ingredients)
+        for(Ingredient  i: ingredients)
         {
             price += i.getPrice();
         }
