@@ -1,3 +1,5 @@
+package Main;
+
 public interface Food {
 
     public String getName();

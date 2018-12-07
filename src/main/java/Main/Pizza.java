@@ -1,3 +1,5 @@
+package Main;
+
 import java.util.ArrayList;
 
 public abstract class Pizza implements Food {
@@ -5,6 +7,11 @@ public abstract class Pizza implements Food {
     String name;
     ArrayList<Ingredient> ingredients;
 
+    protected Pizza()
+    {
+        name = null;
+        ingredients = new ArrayList<>();
+    }
     public Pizza(String name)
     {
         this.name = name;
