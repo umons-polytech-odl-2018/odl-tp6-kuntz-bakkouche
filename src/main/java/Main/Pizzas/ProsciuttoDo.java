@@ -10,7 +10,6 @@ public class ProsciuttoDo extends Pizza{
         addIngredient(new Ingredient("pâte",3));
         addIngredient(new Ingredient("sauce tomate",(float)1.5));
         addIngredient(new Ingredient("fromage",2));
-
-
+        addIngredient(new Ingredient("jambon",2));
     }
 }
